@@ -8,7 +8,6 @@ body {
 
 /* header section  */
 
-
 /* navbar start  */
 .top-banner {
     background-color: #2D25A0;
@@ -122,39 +121,14 @@ main {
 .player-card {
     width: 330px;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-
 .player-card img {
     width: 100%;
 }
-
 /* main section end*/
-
-/* highlight  */
-/* .highlights-section{
-    display: flex;
-    width: 100%;
-    padding-top: 40px;
-}
-.highlights, .half-width {
-    width: 50%;
-    margin-left: 117px;
-    margin-right: 150px;
-}
-.half-width h1{
-    font-size: 40px;
-}
-
-.half-width img {
-    width: 110%;
-    margin-top: 50px;
-    
-}
-.half-width p{
-    padding-bottom: 10px
-} */
-
 
 /* gallery  */
 
@@ -168,8 +142,9 @@ main {
 .gallery-item {
     text-align: center;
 }
+/* gallery  */
 
-/*  video  */
+/*  Highlights match start  */
 .video h1 {
     text-align: center;
     padding-top: 50px;
@@ -185,8 +160,9 @@ main {
 .video-item {
     text-align: center;
 }
+/* Highlights match end  */
 
-/* footer  */
+/* footer start */
 .footer-image img {
     width: 220px;
 }
@@ -209,3 +185,4 @@ main {
     padding: 5px;
     color: gray;
 }
+/* footer end  */
